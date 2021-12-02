@@ -1,0 +1,163 @@
+.jsTop {
+  width: 100%;
+  height: 60px;
+  background-color: #1C2427;
+  overflow: hidden;
+}
+
+.jsTop-left {
+  float: left;
+  overflow: hidden;
+  margin-left: 72px;
+}
+
+.jsTop-left img {
+  display: block;
+  float: left;
+}
+
+.jsTop-left img:nth-child(1) {
+  margin-top: 10px;
+}
+
+.jsTop-left img:nth-child(2) {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+
+.jsTop-right {
+  margin-left: 875px;
+  overflow: hidden;
+  height: 60px;
+}
+
+.jsTop-right li {
+  float: left;
+  margin-left: 28px;
+}
+
+.jsTop-right li:first-child {
+  margin-left: 0px;
+}
+
+.jsTop-right li:nth-child(5) a, .jsTop-right li:nth-child(6) a {
+  color: #66696B;
+}
+
+.jsTop-right li:nth-child(5) a:hover, .jsTop-right li:nth-child(6) a:hover {
+  color: #949596;
+}
+
+.jsTop-right a {
+  font-size: 14px;
+  line-height: 60px;
+  color: #949596;
+}
+
+.bg {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/bg.74532d7a.jpg);
+}
+
+.bg1 {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/bg-jianghu.8d618d3c.jpg);
+}
+
+.bg2 {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/bg-lunjian.72bcc0bb.jpg);
+}
+
+.bg3 {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/bg-video.bc24c7ca.jpg);
+}
+
+.bg4 {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/bg-tool.68ee97b3.jpg);
+}
+
+.bg5 {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/bg-character.922dcd0c.jpg);
+}
+
+.bottom {
+  width: 100%;
+  height: 185px;
+  background-color: #222;
+  color: #555;
+  font-size: 12px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 0;
+  padding-left: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 500px;
+}
+
+.bottom img {
+  float: left;
+}
+
+.bottom ul {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.bottom ul li {
+  float: left;
+  margin-left: 10px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.bottom ul li:before {
+  content: '';
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  background-color: #555;
+}
+
+.bottom ul li:last-child:before {
+  width: 0px;
+}
+
+.bottom a {
+  color: #555;
+}
+
+.bottom span {
+  color: red;
+}
+
+.nav {
+  width: 136px;
+  height: 482px;
+  background-image: url(../img/line-index.6d4828ae.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 50px;
+  top: 200px;
+}
+
+.nav li {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 34px;
+  color: #d7cab3;
+  cursor: pointer;
+}
+/*# sourceMappingURL=daily.css.map */

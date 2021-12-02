@@ -1,0 +1,417 @@
+.head {
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+}
+
+.back {
+  float: right;
+}
+
+.nav {
+  width: 100%;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+.nav a {
+  display: block;
+  width: 160px;
+  height: 75px;
+  float: left;
+  font-size: 32px;
+  color: #C2C3C2;
+  text-align: center;
+}
+
+.nav a:nth-child(2) {
+  margin-left: 30px;
+}
+
+#active {
+  color: #494949;
+  border-bottom: 5px solid #494949;
+}
+
+.content {
+  width: 970px;
+  height: 1010px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.content img {
+  display: block;
+}
+
+.content .about {
+  position: absolute;
+  top: 800px;
+  display: none;
+  left: 0;
+  height: 220px;
+}
+
+.content .about h6 {
+  font-size: 20px;
+  color: #777;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.content .about-right {
+  position: absolute;
+  display: none;
+  top: 800px;
+  right: 0;
+}
+
+.about-right-text {
+  font-size: 20px;
+  position: absolute;
+  top: 800px;
+  right: 110px;
+  display: none;
+}
+
+.about-right-text span {
+  font-size: 16px;
+}
+
+.about-left-tex {
+  position: absolute;
+  top: 850px;
+  display: none;
+}
+
+.about-left-tex b {
+  color: #333;
+}
+
+.about-left-tex p {
+  width: 400px;
+  color: #777;
+  line-height: 2;
+}
+
+.warp {
+  height: 235px;
+  width: 975px;
+  height: 235px;
+  background-color: #f1f1f1;
+  margin-top: 15px;
+}
+
+.warp h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #393939;
+  line-height: 100px;
+  padding-top: 30px;
+}
+
+.warp p {
+  width: 580px;
+  margin: 0 auto;
+  line-height: 2;
+  color: #777;
+}
+
+.center-right-left {
+  width: 485px;
+  height: 4784px;
+  border-right: 1px solid #e2e2e2;
+  float: left;
+  position: relative;
+}
+
+.center-right-left div {
+  float: right;
+  border: 1px solid #e2e2e2;
+  position: absolute;
+}
+
+.center-right-left div img {
+  display: block;
+}
+
+.center-right-left div:nth-child(1) {
+  top: 1361px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(2) {
+  top: 1361px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(3) {
+  top: 1361px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(4) {
+  top: 1361px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(5) {
+  top: 1361px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(6) {
+  top: 1361px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(7) {
+  top: 2500px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(8) {
+  top: 2500px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(9) {
+  top: 2500px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(10) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(11) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(12) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(13) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(14) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(15) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right-left div:nth-child(16) {
+  top: 3130px;
+  right: 0;
+  display: none;
+}
+
+.center-right {
+  display: none;
+}
+
+.center-right-right {
+  width: 485px;
+  height: 4784px;
+  float: left;
+  position: relative;
+}
+
+.center-right-right div {
+  position: absolute;
+  border-top: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.center-right-right div img {
+  display: block;
+}
+
+.center-right-right div:nth-child(1) {
+  top: 1361px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(2) {
+  top: 1361px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(3) {
+  top: 1361px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(4) {
+  top: 1361px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(5) {
+  top: 1361px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(6) {
+  top: 1361px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(7) {
+  top: 2500px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(8) {
+  top: 2500px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(9) {
+  top: 2500px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(10) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(11) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(12) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(13) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(14) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(15) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(16) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right div:nth-child(17) {
+  top: 3130px;
+  left: 0;
+  display: none;
+}
+
+.center-right-right {
+  position: relative;
+}
+
+.bottom {
+  width: 100%;
+  height: 185px;
+  background-color: #222;
+  color: #555;
+  font-size: 12px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 0;
+  padding-left: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 500px;
+}
+
+.bottom img {
+  float: left;
+}
+
+.bottom ul {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.bottom ul li {
+  float: left;
+  margin-left: 10px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.bottom ul li:before {
+  content: '';
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  background-color: #555;
+}
+
+.bottom ul li:last-child:before {
+  width: 0px;
+}
+
+.bottom a {
+  color: #555;
+}
+
+.bottom span {
+  color: red;
+}
+/*# sourceMappingURL=history.css.map */
